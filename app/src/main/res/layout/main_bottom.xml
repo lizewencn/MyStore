@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:layout_alignParentBottom="true"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/rg_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/footbar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:checked="true"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="主页"
+            android:textColor="@drawable/color_radiobutton"
+            android:textSize="14sp" />
+
+
+        <RadioButton
+            android:id="@+id/rb_youhuiquan"
+            style="@style/footbar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="分类"
+            android:textColor="@drawable/color_radiobutton"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/rb_cart"
+            style="@style/footbar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="购物车"
+            android:textColor="@drawable/color_radiobutton"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/rb_setting"
+            style="@style/footbar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="我的"
+            android:textColor="@drawable/color_radiobutton"
+            android:textSize="14sp" />
+    </RadioGroup>
+
+</LinearLayout>
